@@ -3,7 +3,7 @@ pipeline {
     agent any
     
     environment {
-        docker Image =''
+        docker Image ='pythonapp'
         registry = 'sdnawaz/pythonapp'
         registryCredential ='dockerhub'
     }
